@@ -26,9 +26,9 @@
   },
   "contributors": [
     {
-        "name": "Rye",
-        "email": "contact@itsrye.dev",
-        "url": "https://itsrye.dev"
+      "name": "Rye",
+      "email": "contact@itsrye.dev",
+      "url": "https://itsrye.dev"
     }
   ],
   "engines": {
@@ -46,20 +46,19 @@
   "devDependencies": {
     "@ryansonshine/commitizen": "^4.2.8",
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
-    "@typescript-eslint/eslint-plugin": "^4.22.0",
-    "@typescript-eslint/parser": "^4.22.0",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
     "conventional-changelog-conventionalcommits": "^5.0.0",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.10.2",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "lint-staged": "^13.2.1",
-    "semantic-release": "^21.0.1",
-    "eslint": "^7.25.0",
-    "prettier": "^2.2.1"
+    "eslint-plugin-prettier": "^3.4.1",
+    "lint-staged": "^13.3.0",
+    "prettier": "^2.8.8",
+    "semantic-release": "^21.1.2"
   },
   "peerDependencies": {
-    "ts-node": "^10.2.1",
-    "typescript": "^4.2.4"
+    "typescript": "^4.9.5"
   },
   "config": {
     "commitizen": {
