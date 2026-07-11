@@ -54,4 +54,10 @@ export class SerializableSet<ItemType> extends Set<ItemType> {
     const values = Array.from(this);
     return new SerializableSet<U>(values.map(callbackfn));
   }
+  filter(
+    callbackfn: (value: ItemType, index: number, array: ItemType[]) => boolean,
+  ): SerializableSet<ItemType> {
+    const values = Array.from(this);
+    return new SerializableSet<ItemType>(values.filter(callbackfn));
+  }
 }
