@@ -60,4 +60,10 @@ export class SerializableSet<ItemType> extends Set<ItemType> {
     const values = Array.from(this);
     return new SerializableSet<ItemType>(values.filter(callbackfn));
   }
+  isEmpty(): boolean {
+    return this.size === 0;
+  }
+  length(): number {
+    return this.size;
+  }
 }
