@@ -63,7 +63,7 @@ export class SerializableSet<ItemType> extends Set<ItemType> {
   isEmpty(): boolean {
     return this.size === 0;
   }
-  length(): number {
+  get length(): number {
     return this.size;
   }
 }
